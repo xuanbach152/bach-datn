@@ -1,0 +1,192 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{malwarebazaar}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=21766fd925dc2a6466617c478dc80c13}{%
+           family={{abuse.ch}},
+           familyi={a\bibinitperiod}}}%
+      }
+      \strng{namehash}{21766fd925dc2a6466617c478dc80c13}
+      \strng{fullhash}{21766fd925dc2a6466617c478dc80c13}
+      \strng{fullhashraw}{21766fd925dc2a6466617c478dc80c13}
+      \strng{bibnamehash}{21766fd925dc2a6466617c478dc80c13}
+      \strng{authorbibnamehash}{21766fd925dc2a6466617c478dc80c13}
+      \strng{authornamehash}{21766fd925dc2a6466617c478dc80c13}
+      \strng{authorfullhash}{21766fd925dc2a6466617c478dc80c13}
+      \strng{authorfullhashraw}{21766fd925dc2a6466617c478dc80c13}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Truy cập tháng 5 năm 2026}
+      \field{title}{{MalwareBazaar}: A Project to Share Malware Samples with the Infosec Community}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://bazaar.abuse.ch/
+      \endverb
+      \verb{url}
+      \verb https://bazaar.abuse.ch/
+      \endverb
+    \endentry
+    \entry{joyce2025ember}{inproceedings}{}{}
+      \name{author}{8}{}{%
+        {{hash=a0bfdf50b28b0f899fddbe8251b2a973}{%
+           family={Joyce},
+           familyi={J\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f5763851eeedac1c8e492eeb4f7a383d}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Gideon},
+           giveni={G\bibinitperiod}}}%
+        {{hash=19ff65b8ed8ab95652a6588a676032ab}{%
+           family={Roth},
+           familyi={R\bibinitperiod},
+           given={Phil},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c1fc7f635df3a0a4965a694908f62936}{%
+           family={Zak},
+           familyi={Z\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=11cc2330b187b6368edd93474faa54ad}{%
+           family={Zaresky-Williams},
+           familyi={Z\bibinithyphendelim W\bibinitperiod},
+           given={Elliott},
+           giveni={E\bibinitperiod}}}%
+        {{hash=fc0aa80f94bc81afe67e9976d93a2b65}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Hyrum},
+           giveni={H\bibinitperiod}}}%
+        {{hash=db35e12d9d15263d499e410761247d51}{%
+           family={Raff},
+           familyi={R\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+        {{hash=337fe0f14ca7cc788919fbe053a23a93}{%
+           family={Holt},
+           familyi={H\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{717cdbfe860afa1f7e960564bcecb11b}
+      \strng{fullhash}{0cb87aa661aae9cba51f8c1eee9dbd5a}
+      \strng{fullhashraw}{0cb87aa661aae9cba51f8c1eee9dbd5a}
+      \strng{bibnamehash}{717cdbfe860afa1f7e960564bcecb11b}
+      \strng{authorbibnamehash}{717cdbfe860afa1f7e960564bcecb11b}
+      \strng{authornamehash}{717cdbfe860afa1f7e960564bcecb11b}
+      \strng{authorfullhash}{0cb87aa661aae9cba51f8c1eee9dbd5a}
+      \strng{authorfullhashraw}{0cb87aa661aae9cba51f8c1eee9dbd5a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining}
+      \field{title}{{EMBER2024} -- A Benchmark Dataset for Holistic Evaluation of Malware Classifiers}
+      \field{year}{2025}
+    \endentry
+    \entry{ember2018}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=b7ce5783d4e4b5b33d7541a3245e3b11}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Hyrum\bibnamedelima S.},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=19ff65b8ed8ab95652a6588a676032ab}{%
+           family={Roth},
+           familyi={R\bibinitperiod},
+           given={Phil},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{f3ee9f3f0fa92877bc26de51526cd5e3}
+      \strng{fullhash}{f3ee9f3f0fa92877bc26de51526cd5e3}
+      \strng{fullhashraw}{f3ee9f3f0fa92877bc26de51526cd5e3}
+      \strng{bibnamehash}{f3ee9f3f0fa92877bc26de51526cd5e3}
+      \strng{authorbibnamehash}{f3ee9f3f0fa92877bc26de51526cd5e3}
+      \strng{authornamehash}{f3ee9f3f0fa92877bc26de51526cd5e3}
+      \strng{authorfullhash}{f3ee9f3f0fa92877bc26de51526cd5e3}
+      \strng{authorfullhashraw}{f3ee9f3f0fa92877bc26de51526cd5e3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1804.04637}
+      \field{title}{{EMBER}: An Open Dataset for Training Static {PE} Malware Machine Learning Models}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1804.04637
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1804.04637
+      \endverb
+    \endentry
+    \entry{choudhary2025}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=5d67ef501b4b140cfd8a763771f7294d}{%
+           family={Choudhary},
+           familyi={C\bibinitperiod},
+           given={Aditya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c7f1186181ed44200fdd0c7dcf54d2db}{%
+           family={Pawar},
+           familyi={P\bibinitperiod},
+           given={Sarthak},
+           giveni={S\bibinitperiod}}}%
+        {{hash=918d47056c09d4dadec5a7cfa4b9e56b}{%
+           family={Haribhakta},
+           familyi={H\bibinitperiod},
+           given={Yashodhara},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{2c5ef5e1e153311fb4c6c3edccd4001d}
+      \strng{fullhash}{f69941149ca886aa516beba4c8a47056}
+      \strng{fullhashraw}{f69941149ca886aa516beba4c8a47056}
+      \strng{bibnamehash}{f69941149ca886aa516beba4c8a47056}
+      \strng{authorbibnamehash}{f69941149ca886aa516beba4c8a47056}
+      \strng{authornamehash}{2c5ef5e1e153311fb4c6c3edccd4001d}
+      \strng{authorfullhash}{f69941149ca886aa516beba4c8a47056}
+      \strng{authorfullhashraw}{f69941149ca886aa516beba4c8a47056}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CR}
+      \field{eprinttype}{arXiv}
+      \field{note}{Accepted at ISAC3 2025}
+      \field{title}{Efficient Malware Detection with Optimized Learning on High-Dimensional Features}
+      \field{year}{2025}
+      \verb{eprint}
+      \verb 2506.17309
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2506.17309
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2506.17309
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

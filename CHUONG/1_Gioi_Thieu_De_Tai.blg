@@ -1,0 +1,65 @@
+This is BibTeX, Version 0.99e (TeX Live 2026/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: 1_Gioi_Thieu_De_Tai.aux
+The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: 1_Gioi_Thieu_De_Tai-blx.bib
+Database file #2: Danh_sach_tai_lieu_tham_khao.bib
+Biblatex version: 3.21
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 8 entries,
+            6402 wiz_defined-function locations,
+            1236 strings with 9899 characters,
+and the built_in function-call counts, 26997 in all, are:
+= -- 1550
+> -- 610
+< -- 127
++ -- 471
+- -- 210
+* -- 1628
+:= -- 2561
+add.period$ -- 0
+call.type$ -- 8
+change.case$ -- 53
+chr.to.int$ -- 42
+cite$ -- 14
+duplicate$ -- 2818
+empty$ -- 2799
+format.name$ -- 326
+if$ -- 5849
+int.to.chr$ -- 0
+int.to.str$ -- 17
+missing$ -- 0
+newline$ -- 161
+num.names$ -- 278
+pop$ -- 2343
+preamble$ -- 1
+purify$ -- 77
+quote$ -- 0
+skip$ -- 1127
+stack$ -- 0
+substring$ -- 2358
+swap$ -- 688
+text.length$ -- 151
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 259
+warning$ -- 0
+while$ -- 316
+width$ -- 0
+write$ -- 154

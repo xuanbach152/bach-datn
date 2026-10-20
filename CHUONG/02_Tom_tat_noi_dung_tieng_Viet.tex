@@ -1,0 +1,23 @@
+\documentclass[../DoAn.tex]{subfiles}
+\begin{document}
+
+\begin{center}
+    \Large{\textbf{TÓM TẮT NỘI DUNG ĐỒ ÁN}}\\
+\end{center}
+\vspace{1cm}
+Phần mềm độc hại trên nền tảng Windows gia tăng nhanh về số lượng và mức độ tinh vi, trong khi phương pháp phát hiện dựa trên chữ ký không nhận diện được các biến thể mới chưa từng ghi nhận. Phân tích tĩnh phân loại nhanh dựa trên đặc trưng cấu trúc tệp nhưng dễ bị vô hiệu hóa bởi kỹ thuật đóng gói và làm rối mã; phân tích động quan sát được hành vi thực tế nhưng tiêu tốn nhiều tài nguyên. Mỗi hướng tồn tại hạn chế khi đứng độc lập, do đó đồ án kết hợp cả hai trong một hệ thống thống nhất.
+
+Giai đoạn tĩnh trích xuất bộ đặc trưng PE 2.381 chiều theo chuẩn EMBER và huấn luyện mô hình LightGBM trên tập dữ liệu tự thu thập từ nhiều nguồn công khai. Khảo sát số chiều cho thấy hiệu năng phân loại bão hòa từ khoảng 64 đặc trưng, nên mô hình rút gọn còn 384 chiều vẫn đạt F1 bằng 0,9615 trên tập dữ liệu EMBER 2024. Ngưỡng phân loại được đặt ở 0,33 nhằm ưu tiên giảm tỉ lệ bỏ sót mã độc.
+
+Giai đoạn động thực thi mẫu trong môi trường sandbox xây dựng trên VirtualBox và thu thập sự kiện đồng thời bằng Sysmon và SilkETW; trong đó SilkETW bổ sung khả năng quan sát hoạt động nạp assembly trong .NET Runtime mà Sysmon không ghi nhận. Các sự kiện được chuẩn hóa, dựng thành cây tiến trình và chuỗi hành vi, trích xuất chỉ số xâm phạm và ánh xạ tự động sang khung MITRE ATT\&CK. Toàn bộ quy trình vận hành tự động từ khâu nhận tệp đến khâu xuất báo cáo và được trình bày qua giao diện web.
+
+Đóng góp chính của đồ án là một pipeline phân tích phần mềm độc hại tự động, kết hợp kết quả của hai giai đoạn thành một báo cáo thống nhất gồm kết luận, chỉ số xâm phạm, cây tiến trình và kỹ thuật MITRE ATT\&CK. Khác với các sandbox phổ biến như Cuckoo hay Any.Run vốn can thiệp lời gọi API ở user-mode, đồ án khai thác trực tiếp ETW provider của .NET Runtime, nhờ đó quan sát được hoạt động nạp và sinh mã .NET trong bộ nhớ mà cả phân tích tĩnh lẫn Sysmon đều bỏ sót. Trên 205 mẫu mã độc thuộc bảy nhóm hành vi, hệ thống nhận diện đúng 204 mẫu và thu được bằng chứng hành vi cụ thể ở 72\% số mẫu. Kết quả thực nghiệm đầy đủ được trình bày trong Chương~\ref{chapter:Experiment}.
+\vspace{1cm}
+\begin{flushright}
+Sinh viên thực hiện\\
+\begin{tabular}{@{}c@{}}
+\textit{Nguyễn Xuân Bách}
+\end{tabular}
+\end{flushright}
+
+\end{document}

@@ -1,0 +1,101 @@
+\documentclass[../DoAn.tex]{subfiles}
+\begin{document}
+
+\section{Đặt vấn đề}
+\label{section:1.1}
+
+Đến năm 2026, số mẫu mã độc trên Windows do AV-TEST ghi nhận đã vượt
+1 tỷ và tiếp tục tăng đều qua từng năm~\cite{avtest2025}. Theo báo cáo IBM~\cite{ibm2025}, chi phí trung
+bình mỗi vụ vi phạm dữ liệu đạt 4,44 triệu USD năm 2025, bao gồm tổn
+thất do gián đoạn hoạt động, mất khách hàng và chi phí tuân thủ pháp lý.
+Ở quy mô toàn cầu, thiệt hại do tội phạm mạng được dự báo đạt 10,5
+nghìn tỷ USD mỗi năm~\cite{cybercrime2025}.
+
+Phần mềm độc hại trên Windows tồn tại dưới nhiều hình thức với cơ chế
+tấn công khác nhau. Ransomware mã hóa dữ liệu rồi đòi tiền chuộc và
+hiện diện trong 48\% số vụ vi phạm dữ liệu theo báo cáo Verizon DBIR
+2026~\cite{verizon2026}. Trojan ngụy trang thành phần mềm hợp lệ để cài
+cửa hậu hoặc đánh cắp thông tin; biến thể phổ biến là RAT, duy trì
+quyền điều khiển từ xa trung bình 11 ngày trước khi bị phát
+hiện~\cite{mandiant2025}. Worm tự nhân bản và lan truyền qua mạng mà
+không cần thao tác của người dùng nên phát tán rất nhanh: mã độc dạng
+worm như WannaCry từng lây nhiễm hơn 200.000 máy tính tại ít nhất 150
+quốc gia chỉ trong vài ngày, gây thiệt hại ước tính tới 4 tỷ
+USD~\cite{wannacry2017}. Sự đa dạng về cơ chế tấn công đòi hỏi phương
+pháp phát hiện thích ứng được với nhiều dạng mối đe dọa thay vì chỉ
+dựa vào một cơ chế duy nhất.
+
+Phương pháp phát hiện phổ biến nhất hiện nay là nhận diện dựa trên chữ
+ký: hệ thống đối chiếu tệp cần kiểm tra với cơ sở dữ liệu mẫu độc hại
+đã biết. Cách làm này hiệu quả với các mối đe dọa đã biết nhưng bộc lộ
+hạn chế trước biến thể mới, bởi kẻ tấn công chỉ cần đóng gói lại hoặc
+làm rối mã thực thi là đủ khiến chữ ký hiện có không còn nhận diện
+được~\cite{gibert2020}. Riêng năm 2024, SonicWall ghi nhận hơn 210.000
+biến thể mã độc mới~\cite{sonicwall2025}; con số này phản ánh khoảng
+trễ thường trực giữa thời điểm mẫu xuất hiện và thời điểm chữ ký được
+cập nhật.
+
+Hạn chế này đặt ra nhu cầu về phương pháp phát hiện không phụ thuộc
+hoàn toàn vào chữ ký, có khả năng nhận diện cả biến thể zero-day. Kết
+hợp phân tích tĩnh bằng học máy và quan sát hành
+vi động trong môi trường sandbox là hướng tiếp cận cho phép hệ thống
+nhận diện cả mẫu đã biết lẫn biến thể mới.
+
+\section{Mục tiêu và phạm vi đề tài}
+\label{section:1.2}
+
+Từ hạn chế của phương pháp phát hiện dựa trên chữ ký đã phân tích tại
+Mục~\ref{section:1.1}, đồ án xây dựng hệ thống hỗ trợ phát hiện và
+phân tích phần mềm độc hại trên nền tảng Windows, thực hiện phân loại
+tệp PE thành lành tính hoặc độc hại đồng thời thu thập bằng chứng hành
+vi phục vụ điều tra.
+Cụ thể, bên cạnh kết quả phân loại, hệ thống thu thập thông tin phục
+vụ phân tích hành vi gồm IOC, cây tiến trình và các
+kỹ thuật tấn công theo khung MITRE ATT\&CK~\cite{mitre_attack}. Ba dạng đầu ra này bổ sung
+cho nhau: IOC phục vụ truy vết và đối chiếu nhanh, cây tiến trình giúp
+hiểu luồng thực thi, ánh xạ ATT\&CK chuẩn hóa kết quả cho đội ngũ
+phân tích.
+
+Đồ án giới hạn phạm vi đối với các tệp thực thi định dạng PE 32/64-bit
+(\texttt{.exe}, \texttt{.dll}) trên hệ điều hành Windows. Các định dạng
+khác như tài liệu Office chứa macro, script PowerShell hay JavaScript,
+cũng như các nền tảng ngoài Windows, không thuộc phạm vi đề tài. Đồ
+án không đặt mục tiêu xử lý các kỹ thuật né tránh sandbox nâng cao
+hay cơ chế chống phân tích chuyên biệt.
+
+\section{Định hướng giải pháp}
+\label{section:1.3}
+
+Để đạt được các mục tiêu đề ra, đồ án đề xuất kiến trúc hai giai đoạn
+kết hợp phân tích tĩnh và phân tích động. Giai đoạn tĩnh thực hiện
+phân loại tệp PE thông qua mô hình học máy huấn luyện trên các đặc
+trưng cấu trúc. Giai đoạn động thực thi mẫu trong môi trường sandbox
+cô lập nhằm thu thập thông tin hành vi thực tế. Phân tích tĩnh đơn lẻ
+dễ bị vô hiệu hóa bởi kỹ thuật đóng gói và làm rối mã; phân tích động
+đơn lẻ tiêu tốn nhiều tài nguyên và không cung cấp phân loại tức thời.
+Kết hợp hai giai đoạn cho phép hệ thống phân loại nhanh dựa trên cấu
+trúc tệp, đồng thời thu thập bằng chứng hành vi để làm rõ ngữ cảnh
+tấn công. So với các hệ thống phân tích động hiện có, đồ án tích hợp
+thêm SilkETW để giám sát .NET Runtime — lớp hành vi mà Sysmon không
+ghi nhận trực tiếp — và hợp nhất kết quả hai giai đoạn thành một báo
+cáo thống nhất gồm kết luận, IOC, cây tiến trình và ánh xạ MITRE
+ATT\&CK.
+
+\section{Bố cục đồ án}
+\label{section:1.4}
+
+Phần còn lại của đồ án được tổ chức như sau.
+Chương~\ref{chapter:Related_works} trình bày cơ sở lý thuyết, bao gồm
+đặc điểm các nhóm mã độc phổ biến, cấu trúc tệp PE và đặc trưng tĩnh,
+cơ chế thu thập sự kiện qua Sysmon và ETW, và khung MITRE ATT\&CK.
+Chương~\ref{chapter:Design} trình bày kiến trúc tổng thể, quy trình xây
+dựng mô hình học máy, thiết kế môi trường sandbox và cơ chế xây dựng
+chuỗi hành vi.
+Chương~\ref{chapter:Implementation} trình bày triển khai từng thành phần
+và giao diện web demo.
+Chương~\ref{chapter:Experiment} đánh giá hiệu năng mô hình phân loại
+và kết quả phân tích hành vi động.
+Phần Kết luận tóm tắt kết quả đạt được và đề xuất
+hướng phát triển.
+
+\end{document}

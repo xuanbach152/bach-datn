@@ -1,0 +1,43 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces So sánh các nhóm phần mềm độc hại và hành vi quan sát được trong sandbox, tổng hợp từ các nguồn~\blx@tocontentsinit {0}\cite {ye2017,gibert2020,DBLP:journals/corr/abs-2102-06249,7958609,rezaeirad2018,rashid2024,Zou2006,porras2009}.}}{3}{table.caption.6}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Chín nhóm đặc trưng tĩnh và số chiều tương ứng~\blx@tocontentsinit {0}\cite {ember2018, choudhary2025}.}}{5}{table.caption.8}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Các Event ID của Sysmon được sử dụng trong đồ án.}}{10}{table.caption.12}%
+\contentsline {table}{\numberline {2.4}{\ignorespaces So sánh đặc điểm giữa đồ án và các hệ thống phân tích động hiện có~\blx@tocontentsinit {0}\cite {gibert2020}.}}{13}{table.caption.14}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Yêu cầu chức năng của hệ thống.}}{14}{table.caption.15}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Yêu cầu phi chức năng của hệ thống.}}{15}{table.caption.16}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Cấu hình phần cứng và phần mềm môi trường triển khai.}}{24}{table.caption.26}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Thành phần tập dữ liệu huấn luyện cuối cùng (\texttt {X\_final.npy}, 2.381 đặc trưng/mẫu).}}{27}{table.caption.30}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Siêu tham số ba thuật toán trong lần huấn luyện thứ nhất (toàn bộ 2.381 đặc trưng, tập train 161.312 mẫu).}}{28}{table.caption.31}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Siêu tham số LightGBM trong lần huấn luyện thứ hai (tập con đặc trưng, 5-fold CV trên 201.640 mẫu).}}{28}{table.caption.32}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Tham số cấu hình SilkETW trong mỗi phiên phân tích.}}{30}{table.caption.35}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Quy tắc kết hợp kết quả và tính độ tin cậy tổng hợp.}}{37}{table.caption.44}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Ba tập dữ liệu dùng trong đánh giá giai đoạn phân tích tĩnh.}}{42}{table.caption.50}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces So sánh ba thuật toán trên tập holdout 40.328~mẫu (toàn bộ 2.381 đặc trưng).}}{43}{table.caption.51}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces So sánh bốn cấu hình đặc trưng trên tập EMBER 2024 (119.992~mẫu).}}{44}{table.caption.54}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Tỉ lệ phát hiện theo nhóm của mô hình Top-384 (tập kiểm thử riêng).}}{45}{table.caption.55}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces So sánh ba mốc ngưỡng phân loại trên tập EMBER 2024.}}{46}{table.caption.57}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces Đối chiếu điểm dự đoán với tỉ lệ thực tế (trích các khoảng tiêu biểu, thống kê trên nửa tập kiểm EMBER 2024 dùng đánh giá hiệu chuẩn, khoảng 60.000~mẫu). Vùng điểm cực thấp và cực cao khớp tốt, vùng giữa tự tin thái quá.}}{48}{table.caption.61}%
+\contentsline {table}{\numberline {5.7}{\ignorespaces Bằng chứng hành vi của các mẫu mã độc đại diện.}}{51}{table.caption.65}%
+\contentsline {table}{\numberline {5.8}{\ignorespaces Độ nhạy của kết luận theo ngưỡng override xác suất tĩnh khi phát hiện tiêm mã (205 mã độc + 100 lành tính).}}{52}{table.caption.66}%
+\contentsline {table}{\numberline {5.9}{\ignorespaces Tỉ lệ phát hiện hành vi tiêm mã theo nhóm họ; ground-truth lấy xấp xỉ ở mức taxonomy họ.}}{53}{table.caption.67}%
+\contentsline {table}{\numberline {5.10}{\ignorespaces Số lần các quy tắc MITRE cho kết quả dương tính giả trên 100 ứng dụng hợp pháp (mặt precision của ánh xạ hành vi).}}{53}{table.caption.68}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Thống kê mẫu lành tính (benign) theo nguồn.}}{61}{table.caption.75}%
+\contentsline {table}{\numberline {A.2}{\ignorespaces Thống kê mẫu mã độc theo nguồn.}}{61}{table.caption.76}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {B.1}{\ignorespaces Các Sysmon Event ID được theo dõi và nhóm hành vi tương ứng.}}{62}{table.caption.78}%
+\contentsline {table}{\numberline {B.2}{\ignorespaces Các luật ánh xạ MITRE ATT\&CK được triển khai trong bộ phân tích hành vi.}}{63}{table.caption.79}%
+\contentsline {table}{\numberline {B.3}{\ignorespaces Toàn bộ endpoint của server web demo.}}{64}{table.caption.80}%
+\contentsline {table}{\numberline {B.4}{\ignorespaces Chín loại sự kiện SSE trong luồng \texttt {/api/jobs/<id>/stream}.}}{64}{table.caption.81}%
+\contentsline {table}{\numberline {B.5}{\ignorespaces Tám tiến trình trong \texttt {\_DOTNET\_NOISE\_PROCS} bị loại khỏi đầu ra bộ chuẩn hóa SilkETW.}}{65}{table.caption.82}%
+\contentsline {table}{\numberline {B.6}{\ignorespaces Bảy từ khóa trong \texttt {\_SUSPICIOUS\_NS} dùng đánh dấu sự kiện SilkETW nghi ngờ.}}{65}{table.caption.83}%
+\contentsline {table}{\numberline {B.7}{\ignorespaces 27 tiến trình hệ thống bị lọc khỏi cây tiến trình (hằng \texttt {\_TREE\_NOISE}).}}{65}{table.caption.84}%
+\contentsline {table}{\numberline {B.8}{\ignorespaces Toàn bộ endpoint của Agent HTTP trong máy ảo.}}{66}{table.caption.85}%
+\contentsline {table}{\numberline {B.9}{\ignorespaces Ánh xạ 24~loại sự kiện chuẩn hóa vào 11~nhóm hành vi.}}{67}{table.caption.86}%
+\contentsline {table}{\numberline {B.10}{\ignorespaces Cấu trúc báo cáo JSON đầu ra của pipeline.}}{67}{table.caption.87}%
+\contentsfinish 
+\contentsfinish 

@@ -1,0 +1,75 @@
+\documentclass[../DoAn.tex]{subfiles}
+\begin{document}
+\begin{center}
+    \Large{\textbf{DANH MỤC THUẬT NGỮ}}\\
+\end{center}
+\vspace{0.5cm}
+
+\begin{longtable}{|p{3.8cm}|p{10cm}|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Thuật ngữ}} & \multicolumn{1}{c|}{\textbf{Ý nghĩa}} \\
+\hline
+\endfirsthead
+\hline
+\multicolumn{1}{|c|}{\textbf{Thuật ngữ}} & \multicolumn{1}{c|}{\textbf{Ý nghĩa}} \\
+\hline
+\endhead
+\endfoot
+\endlastfoot
+Sandbox & Môi trường thực thi cô lập, cho phép quan sát hành vi mã độc mà không ảnh hưởng đến hệ thống thật. \\
+\hline
+Snapshot & Ảnh chụp trạng thái máy ảo, dùng để khôi phục nhanh về trạng thái sạch trước mỗi phiên phân tích. \\
+\hline
+Đóng gói (Packing) & Kỹ thuật nén hoặc mã hóa mã thực thi nhằm che giấu nội dung gốc của tệp. \\
+\hline
+Làm rối mã (Obfuscation) & Kỹ thuật biến đổi mã nhằm gây khó khăn cho quá trình phân tích. \\
+\hline
+Zero-day & Mẫu mã độc hoặc lỗ hổng chưa từng được ghi nhận và chưa có chữ ký hay bản vá. \\
+\hline
+Chuỗi hành vi & Tập sự kiện được sắp xếp theo thời gian, phản ánh diễn biến hoạt động của mẫu. \\
+\hline
+Cây tiến trình & Cấu trúc cha--con giữa các tiến trình sinh ra trong phiên phân tích. \\
+\hline
+Tiêm mã (Process injection) & Kỹ thuật chèn và thực thi mã trong không gian bộ nhớ của tiến trình khác. \\
+\hline
+Duy trì hiện diện (Persistence) & Cơ chế giúp mã độc tồn tại sau khi hệ thống khởi động lại. \\
+\hline
+Beacon & Tín hiệu định kỳ mà mã độc gửi tới máy chủ điều khiển để báo trạng thái và chờ lệnh. \\
+\hline
+.NET Runtime & Môi trường thực thi cho các chương trình viết bằng C\# và VB.NET. \\
+\hline
+Assembly (.NET) & Đơn vị mã .NET đã biên dịch, được nạp vào bộ nhớ tại thời điểm chạy. \\
+\hline
+Provider (ETW) & Thành phần phát sự kiện trong cơ chế ETW của Windows. \\
+\hline
+Feature hashing & Kỹ thuật băm danh sách phần tử có độ dài thay đổi về vector kích thước cố định. \\
+\hline
+Gain (độ lợi) & Mức cải thiện khả năng tách malware khỏi benign khi một nút trong cây quyết định chia dữ liệu theo một đặc trưng. \\
+\hline
+Importance Gain & Chỉ số đo mức đóng góp của một đặc trưng dựa trên tổng Gain của đặc trưng đó trên toàn bộ các nút và các cây trong mô hình. \\
+\hline
+Gradient (độ dốc) & Đạo hàm của hàm mất mát theo dự đoán hiện tại, cho biết mô hình đang sai bao nhiêu và theo hướng nào; trong gradient boosting, mỗi cây mới học để giảm sai số theo gradient của các cây trước. \\
+\hline
+Mở rộng theo tầng (level-wise) & Chiến lược phát triển cây của XGBoost: mở rộng đồng loạt mọi nút cùng một độ sâu trước khi xuống sâu hơn, cho cây cân đối. \\
+\hline
+Mở rộng theo lá (leaf-wise) & Chiến lược phát triển cây của LightGBM: ưu tiên mở rộng nút lá có Gain cao nhất bất kể độ sâu, đạt độ chính xác cao hơn với cùng số vòng nhưng cần giới hạn độ sâu để tránh quá khớp. \\
+\hline
+Dữ liệu lệch phân phối & Dữ liệu khác nguồn thu thập hoặc khác phân phối so với tập huấn luyện, dùng để đánh giá khả năng tổng quát hóa. \\
+\hline
+Holdout & Tập kiểm thử được tách riêng từ dữ liệu huấn luyện để đánh giá khách quan. \\
+\hline
+INetSim & Công cụ giả lập các dịch vụ mạng nhằm duy trì luồng thực thi của mẫu trong sandbox. \\
+\hline
+Quá khớp (Overfitting) & Hiện tượng mô hình học quá sát dữ liệu huấn luyện, làm giảm khả năng tổng quát hóa sang dữ liệu mới. \\
+\hline
+LOLBin (Living-off-the-Land Binary) & Tệp thực thi hợp pháp có sẵn của hệ điều hành (như \texttt{cmd}, \texttt{powershell}, \texttt{rundll32}) bị mã độc lạm dụng để thực thi hành vi. \\
+\hline
+Kernel-mode / User-mode & Hai mức đặc quyền thực thi của Windows: kernel-mode là nhân hệ điều hành (đặc quyền cao), user-mode là nơi chạy ứng dụng thông thường (đặc quyền thấp). \\
+\hline
+Hiệu chuẩn (Calibration) & Quá trình chỉnh xác suất dự đoán của mô hình cho khớp tần suất thực tế, giúp con số độ tin cậy hiển thị đáng tin mà không làm thay đổi nhãn phân loại. \\
+\hline
+Isotonic Regression & Phép hồi quy đơn điệu (không giảm) dùng để hiệu chuẩn xác suất; vì giữ nguyên thứ tự xếp hạng nên không làm thay đổi nhãn. \\
+\hline
+\end{longtable}
+
+\end{document}

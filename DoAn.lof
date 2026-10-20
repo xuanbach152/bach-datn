@@ -1,0 +1,51 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Cấu trúc tệp PE 32-bit~\blx@tocontentsinit {0}\cite {ember2018}.}}{4}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Quy trình phát hiện mã độc bằng học máy.}}{6}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Minh họa cách tính Importance Gain.}}{8}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Minh họa kiến trúc Sysmon.}}{9}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces So sánh phạm vi giám sát của Sysmon và ETW.}}{11}{figure.caption.13}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Kiến trúc tổng thể của hệ thống phân tích phần mềm độc hại.}}{15}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Luồng phân tích tĩnh khi tiếp nhận tệp đầu vào}}{16}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Quy trình xây dựng mô hình phân loại tĩnh}}{16}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Luồng xử lý giai đoạn phân tích động.}}{18}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Kiến trúc môi trường sandbox.}}{18}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Luồng thực thi mẫu trong môi trường sandbox.}}{19}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Luồng thu thập sự kiện trong môi trường sandbox.}}{20}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Luồng chuẩn hóa và lọc nhiễu dữ liệu.}}{21}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Luồng xử lý end-to-end của pipeline tích hợp.}}{22}{figure.caption.25}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Cấu hình phần cứng máy ảo \texttt {win10} trong VirtualBox Settings.}}{25}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Cấu hình adapter mạng host-only của máy ảo trong VirtualBox Settings.}}{25}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Sơ đồ quá trình xây dựng ma trận đặc trưng từ tệp PE thô.}}{26}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Kênh sự kiện \texttt {Microsoft-Windows-Sysmon/Operational} trong Windows Event Viewer.}}{29}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Các sự kiện Sysmon thô trong tệp \texttt {sysmon\_events.jsonl} sau khi kéo từ guest về host.}}{30}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Các sự kiện ETW thô về nạp assembly .NET trong tệp \texttt {etw\_dotnet.json} sau khi kéo từ guest về host.}}{31}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Giao diện tài liệu API tự động (Swagger UI) của Agent tại cổng~8001.}}{31}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Sự kiện Sysmon EID~1 trước và sau chuẩn hóa.}}{32}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Sự kiện SilkETW \texttt {Method/LoadVerbose} trước và sau chuẩn hóa.}}{33}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Ví dụ cây tiến trình sau khi lọc nhiễu của một mẫu phân tích.}}{34}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Ví dụ đầu ra chuỗi hành vi của một mẫu phân tích.}}{34}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Ví dụ kết quả ánh xạ MITRE ATT\&CK của một mẫu phân tích.}}{35}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Log thực thi pipeline tích hợp trong một phiên phân tích.}}{36}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Ví dụ báo cáo JSON đầu ra của một phiên phân tích mẫu mã độc.}}{38}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Trang Analyze: vùng kéo-thả và biểu mẫu cấu hình môi trường phân tích.}}{39}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Trang Pipeline: 12~giai đoạn phân tích.}}{39}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Trang Reports: bảng tổng hợp kết quả các phiên phân tích đã lưu.}}{40}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Trang Report Detail: báo cáo chi tiết 1 mẫu phân tích.}}{40}{figure.caption.49}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Đường cong ROC của ba thuật toán trên tập holdout, trục FPR theo thang log.}}{43}{figure.caption.52}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Đánh đổi số đặc trưng và hiệu năng trên EMBER 2024 qua mười lăm mốc; vòng đỏ đánh dấu ba ngưỡng 128/256/384, đường chấm dọc là điểm gãy (knee) tại 64 đặc trưng.}}{44}{figure.caption.53}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Tỉ lệ phát hiện theo nhóm của bốn cấu hình đặc trưng.}}{45}{figure.caption.56}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Biến thiên FPR và FNR theo ngưỡng phân loại.}}{46}{figure.caption.58}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Tổng giá trị SHAP tuyệt đối theo nhóm đặc trưng.}}{47}{figure.caption.59}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Phân bố các trường hợp phân loại sai theo khoảng điểm số (FN bên trái, FP bên phải).}}{48}{figure.caption.60}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Reliability diagram của mô hình Top-384 trước và sau hiệu chuẩn trên tập EMBER 2024.}}{49}{figure.caption.62}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Phân mức bằng chứng động trên 205~mẫu mã độc.}}{50}{figure.caption.63}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Độ phủ các loại hành vi thu được.}}{50}{figure.caption.64}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Tính bù trừ giữa giai đoạn tĩnh và động trên 205 mẫu mã độc.}}{54}{figure.caption.69}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsfinish 
+\contentsfinish 

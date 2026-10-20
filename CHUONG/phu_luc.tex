@@ -1,0 +1,452 @@
+\documentclass[../DoAn.tex]{subfiles}
+\begin{document}
+
+\chapter{NGUỒN DỮ LIỆU}
+
+\section*{A.1\quad Thống kê mẫu lành tính theo nguồn}
+\addcontentsline{toc}{section}{A.1\quad Thống kê mẫu lành tính theo nguồn}
+
+Bảng~\ref{tab:benign-sources} liệt kê 13~nguồn thu thập mẫu lành
+tính, gồm bảy phiên bản Windows khác nhau từ ISO gốc của Microsoft
+và sáu nguồn phần mềm hợp pháp bên ngoài.
+\begin{table}[H]
+\centering
+\caption{Thống kê mẫu lành tính (benign) theo nguồn.}
+\label{tab:benign-sources}
+\begin{tabular}{|c|l|r|}
+\hline
+\multicolumn{1}{|c|}{\textbf{STT}} & \multicolumn{1}{c|}{\textbf{Nguồn}} & \multicolumn{1}{c|}{\textbf{Số mẫu}} \\
+\hline
+1  & Windows 10 LTSC 2021 (en-US x64)      & 18.009 \\
+\hline
+2  & Windows 11 Consumer 25H2 (en-US x64)  & 21.540 \\
+\hline
+3  & Windows Server 2022 (en-US x64)       & 15.801 \\
+\hline
+4  & Windows Server 2016 (en-US x64)       & 12.168 \\
+\hline
+5  & Windows Server 2019 (en-US x64)       & 12.875 \\
+\hline
+6  & Windows 8.1 Update 1 (en-US x64)      & 10.856 \\
+\hline
+7  & Windows 7 SP1 Ultimate (en-US x64)    &  8.821 \\
+\hline
+8  & Windows 10 22H2 (en-US x64)           &  5.275 \\
+\hline
+9  & Chocolatey packages (batch 1)         &  1.813 \\
+\hline
+10 & Chocolatey packages (batch 2)         &  1.091 \\
+\hline
+11 & Sysinternals Suite 2025-03            &    405 \\
+\hline
+12 & Nirsoft utilities collection          &    505 \\
+\hline
+13 & GitHub open-source releases           &    843 \\
+\hline
+   & \textbf{Tổng}                         & \textbf{110.002} \\
+\hline
+\end{tabular}
+\end{table}
+\section*{A.2\quad Thống kê mẫu mã độc theo nguồn}
+\addcontentsline{toc}{section}{A.2\quad Thống kê mẫu mã độc theo nguồn}
+
+Bảng~\ref{tab:malware-sources} liệt kê bốn tập VirusShare và
+tập MalwareBazaar được thu thập làm mẫu mã độc.
+\begin{table}[H]
+\centering
+\caption{Thống kê mẫu mã độc theo nguồn.}
+\label{tab:malware-sources}
+\begin{tabular}{|c|l|r|}
+\hline
+\multicolumn{1}{|c|}{\textbf{STT}} & \multicolumn{1}{c|}{\textbf{Nguồn}} & \multicolumn{1}{c|}{\textbf{Số mẫu}} \\
+\hline
+1 & VirusShare\_00499              & 31.042 \\
+\hline
+2 & VirusShare\_00495              & 32.891 \\
+\hline
+3 & VirusShare\_00483              & 38.536 \\
+\hline
+4 & VirusShare\_00480              & 28.603 \\
+\hline
+5 & MalwareBazaar (nhiều họ mã độc) &  1.404 \\
+\hline
+  & \textbf{Tổng}                  & \textbf{132.476} \\
+\hline
+\end{tabular}
+\end{table}
+\chapter{QUY TẮC ÁNH XẠ MITRE ATT\&CK VÀ THAM CHIẾU KỸ THUẬT}
+
+\section*{B.1\quad Sysmon Event ID được theo dõi}
+\addcontentsline{toc}{section}{B.1\quad Sysmon Event ID được theo dõi}
+
+Bảng~\ref{tab:sysmon-eids} liệt kê toàn bộ 23~Event ID Sysmon
+được ghi nhận trong phiên phân tích cùng nhóm hành vi tương ứng.
+\begin{table}[H]
+\centering
+\caption{Các Sysmon Event ID được theo dõi và nhóm hành vi tương ứng.}
+\label{tab:sysmon-eids}
+\begin{tabular}{|l|l|l|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Event ID}} & \multicolumn{1}{c|}{\textbf{Nhóm hành vi}} & \multicolumn{1}{c|}{\textbf{Mô tả}} \\
+\hline
+1          & Tiến trình  & Tạo tiến trình \\
+\hline
+2          & Tệp         & Thay đổi thời gian tạo tệp \\
+\hline
+3          & Mạng        & Kết nối mạng \\
+\hline
+5          & Tiến trình  & Kết thúc tiến trình \\
+\hline
+6          & Khác        & Nạp driver \\
+\hline
+7          & DLL         & Nạp thư viện động \\
+\hline
+8          & Tiêm mã     & Tạo luồng từ xa (remote thread) \\
+\hline
+9          & Khác        & Đọc thô đĩa cứng \\
+\hline
+10         & Tiêm mã     & Truy cập tiến trình khác \\
+\hline
+11         & Tệp         & Tạo tệp \\
+\hline
+12, 13, 14 & Registry    & Tạo/xóa khóa, ghi giá trị, đổi tên khóa registry \\
+\hline
+15         & Tệp         & Tạo luồng dữ liệu thay thế (ADS) \\
+\hline
+17, 18     & Named pipe  & Tạo / kết nối named pipe \\
+\hline
+19, 20, 21 & WMI         & Đăng ký WMI filter, consumer, binding \\
+\hline
+22         & DNS         & Truy vấn DNS \\
+\hline
+23, 26     & Tệp         & Xóa tệp \\
+\hline
+25         & Tiêm mã     & Giả mạo tiến trình \\
+\hline
+\end{tabular}
+\end{table}
+\section*{B.2\quad Các luật ánh xạ MITRE ATT\&CK đã triển khai}
+\addcontentsline{toc}{section}{B.2\quad Các luật ánh xạ MITRE ATT\&CK đã triển khai}
+
+Bảng~\ref{tab:mitre-rules} liệt kê toàn bộ 23~kỹ thuật ánh xạ MITRE
+ATT\&CK được triển khai trong bộ phân tích hành vi. Bốn kỹ thuật
+T1071.001, T1566.001, T1070.007 và T1568.002 được đánh mức tin cậy
+trung bình do tín hiệu kích hoạt có thể xuất hiện trong hoạt động
+bình thường; các kỹ thuật còn lại được đánh mức cao.
+\begin{table}[H]
+\centering
+\caption{Các luật ánh xạ MITRE ATT\&CK được triển khai trong bộ
+  phân tích hành vi.}
+\label{tab:mitre-rules}
+\begin{tabular}{|l|l|>{\raggedright\arraybackslash}p{5.8cm}|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Kỹ thuật}} & \multicolumn{1}{c|}{\textbf{Tên}} & \multicolumn{1}{c|}{\textbf{Tín hiệu kích hoạt}} \\
+\hline
+T1003.001   & LSASS Memory                & Process access nhắm vào \texttt{lsass.exe} \\
+\hline
+T1053.005   & Scheduled Task              & Ghi vào khóa \texttt{ScheduledTask} \\
+\hline
+T1055       & Process Injection           & Remote thread (EID~8) hoặc process access (EID~10) \\
+\hline
+T1055.012   & Process Hollowing           & Giả mạo tiến trình (EID~25) \\
+\hline
+T1070       & Indicator Removal           & Xóa tệp log, shadow, backup hoặc .evt \\
+\hline
+T1070.007   & Clear Persistence           & Xóa khóa registry \\
+\hline
+T1071.001   & App.\ Layer Protocol        & Kết nối ra IP công khai ngoài mạng nội bộ \\
+\hline
+T1071.003   & Named Pipe C2               & Named pipe khớp từ khóa C2 đã biết \\
+\hline
+T1090.003   & Multi-hop Proxy             & Truy vấn DNS tên miền \texttt{.onion} \\
+\hline
+T1218       & Signed Binary Proxy Exec.   & Tiến trình là công cụ LOLBin \\
+\hline
+T1490       & Inhibit System Recovery     & Thao tác tệp shadow, VSS hoặc backup \\
+\hline
+T1543.003   & Windows Service             & Ghi vào khóa \texttt{Services} \\
+\hline
+T1546.003   & WMI Event Subscription      & Đăng ký WMI filter, consumer, binding \\
+\hline
+T1546.010   & AppInit DLLs                & Ghi vào khóa \texttt{AppInit\_DLLs} \\
+\hline
+T1546.012   & IFEO Injection              & Ghi vào \texttt{Image File Execution} \\
+\hline
+T1547.001   & Registry Run Keys           & Khóa \texttt{CurrentVersion\textbackslash{}Run} hoặc Startup \\
+\hline
+T1547.004   & Winlogon Helper DLL         & Ghi vào khóa \texttt{Winlogon} \\
+\hline
+T1547.005   & Security Support Provider   & Ghi vào khóa \texttt{SecurityProviders} \\
+\hline
+T1547.008   & LSASS Driver                & Ghi vào \texttt{Lsa\textbackslash{}Notification} \\
+\hline
+T1566.001   & Spearphishing Attachment    & Tiến trình cha là ứng dụng Office hoặc Acrobat \\
+\hline
+T1568.002   & Domain Generation Alg.      & Entropy Shannon nhãn phụ $>3{,}5$~bit và độ dài $\geq 12$~ký tự \\
+\hline
+T1571       & Non-Standard Port           & Kết nối đến cổng C2 (4444, 1337, 8888, 9999, 31337, 8080, 8443) \\
+\hline
+T1620       & Reflective Code Loading     & Assembly .NET nạp qua \texttt{System.Reflection} \\
+\hline
+\end{tabular}
+\end{table}
+\section*{B.3\quad Endpoint và sự kiện SSE của server web demo}
+\addcontentsline{toc}{section}{B.3\quad Endpoint và sự kiện SSE của server web demo}
+
+Bảng~\ref{tab:demo-endpoints} liệt kê tám endpoint REST của server;
+Bảng~\ref{tab:sse-events} mô tả chín loại sự kiện trong luồng SSE.
+\begin{table}[H]
+\centering
+\caption{Toàn bộ endpoint của server web demo.}
+\label{tab:demo-endpoints}
+\begin{tabular}{|l|l|>{\raggedright\arraybackslash}p{6.5cm}|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Endpoint}} & \multicolumn{1}{c|}{\textbf{Phương thức}} & \multicolumn{1}{c|}{\textbf{Chức năng}} \\
+\hline
+\texttt{/}                          & GET  & Phục vụ trang giao diện (\texttt{index.html}) \\
+\hline
+\texttt{/api/analyze}               & POST & Nhận tệp mẫu và tham số; tạo \texttt{job\_id}, lưu vào \texttt{uploads/}, khởi chạy pipeline trong luồng nền \\
+\hline
+\texttt{/api/jobs/<id>/stream}      & GET  & Luồng SSE; phát sự kiện pipeline theo thời gian thực \\
+\hline
+\texttt{/api/jobs/<id>/stop}        & POST & Đặt cờ dừng, đẩy \texttt{stopped}+\texttt{eof} vào hàng đợi, tắt VM qua \texttt{VMManager} \\
+\hline
+\texttt{/api/jobs/<id>}             & GET  & Trả về trạng thái và kết quả cuối của một job \\
+\hline
+\texttt{/api/reports}               & GET  & Liệt kê tệp JSON trong \texttt{results/pipeline\_runs/}, sắp xếp theo thời gian giảm dần \\
+\hline
+\texttt{/api/report/<filename>}     & GET    & Đọc và trả về nội dung một báo cáo JSON \\
+\hline
+\texttt{/api/report/<filename>}     & DELETE & Xóa tệp báo cáo JSON khỏi thư mục \texttt{results/pipeline\_runs/} \\
+\hline
+\end{tabular}
+\end{table}
+\begin{table}[H]
+\centering
+\caption{Chín loại sự kiện SSE trong luồng \texttt{/api/jobs/<id>/stream}.}
+\label{tab:sse-events}
+\begin{tabular}{|l|>{\raggedright\arraybackslash}p{9.5cm}|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Loại sự kiện}} & \multicolumn{1}{c|}{\textbf{Nội dung}} \\
+\hline
+\texttt{ping}         & Giữ kết nối; client bỏ qua \\
+\hline
+\texttt{started}      & Pipeline bắt đầu; kèm tên tệp mẫu \\
+\hline
+\texttt{stage\_start} & Giai đoạn bắt đầu; kèm số thứ tự \texttt{n} (1–12) và tên \\
+\hline
+\texttt{stage\_done}  & Giai đoạn hoàn thành; kèm số thứ tự \texttt{n} \\
+\hline
+\texttt{log}          & Dòng nhật ký; kèm cấp độ (INFO/WARNING/ERROR) và nội dung \\
+\hline
+\texttt{done}         & Pipeline hoàn tất; kèm toàn bộ báo cáo JSON \\
+\hline
+\texttt{stopped}      & Pipeline bị người dùng dừng \\
+\hline
+\texttt{error}        & Pipeline gặp lỗi; kèm thông báo lỗi \\
+\hline
+\texttt{eof}          & Kết thúc luồng; client đóng \texttt{EventSource} \\
+\hline
+\end{tabular}
+\end{table}
+\section*{B.4\quad Danh sách lọc nhiễu trong giai đoạn động}
+\addcontentsline{toc}{section}{B.4\quad Danh sách lọc nhiễu trong giai đoạn động}
+
+Mục này tổng hợp các danh sách lọc nhiễu dùng ở giai đoạn động.
+Bảng~\ref{tab:silketw-exclude} liệt kê tám tiến trình thuộc
+\texttt{\_DOTNET\_NOISE\_PROCS} bị loại khỏi đầu ra SilkETW;
+Bảng~\ref{tab:silketw-keywords} liệt kê bảy từ khóa namespace
+thuộc \texttt{\_SUSPICIOUS\_NS} dùng để đánh dấu nghi ngờ;
+Bảng~\ref{tab:tree-noise} liệt kê 27~tiến trình hệ thống thường
+trực bị lọc khỏi cây tiến trình (\texttt{\_TREE\_NOISE}).
+\begin{table}[H]
+\centering
+\caption{Tám tiến trình trong \texttt{\_DOTNET\_NOISE\_PROCS} bị loại
+  khỏi đầu ra bộ chuẩn hóa SilkETW.}
+\label{tab:silketw-exclude}
+\begin{tabular}{|>{\raggedright\arraybackslash}p{4.2cm}|>{\raggedright\arraybackslash}p{8cm}|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Tiến trình}} & \multicolumn{1}{c|}{\textbf{Lý do loại trừ}} \\
+\hline
+\texttt{msbuild}, \texttt{devenv}, \texttt{dotnet},
+\texttt{vstest}, \texttt{testhost} & Công cụ phát triển .NET, không phải đối tượng phân tích \\
+\hline
+\texttt{silketw} & Tránh tự tham chiếu của công cụ thu thập \\
+\hline
+\texttt{powershell}, \texttt{pwsh} & Sysmon EID~1 đã ghi đầy đủ khi mẫu gọi shell \\
+\hline
+\end{tabular}
+\end{table}
+\begin{table}[H]
+\centering
+\caption{Bảy từ khóa trong \texttt{\_SUSPICIOUS\_NS} dùng đánh dấu
+  sự kiện SilkETW nghi ngờ.}
+\label{tab:silketw-keywords}
+\begin{tabular}{|l|>{\raggedright\arraybackslash}p{8.5cm}|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Từ khóa namespace}} & \multicolumn{1}{c|}{\textbf{Hành vi phản ánh}} \\
+\hline
+\texttt{dynamicClass}      & Tạo kiểu .NET động tại thời điểm chạy \\
+\hline
+\texttt{Invoke}            & Gọi phương thức qua Reflection \\
+\hline
+\texttt{Emit}              & Tự sinh mã IL lúc chạy (IL Emit) \\
+\hline
+\texttt{Reflection}        & Truy cập metadata và bộ nhớ qua introspection \\
+\hline
+\texttt{RunspaceFactory}   & Tạo môi trường PowerShell trong bộ nhớ \\
+\hline
+\texttt{AmsiUtils}         & Vô hiệu hóa Antimalware Scan Interface \\
+\hline
+\texttt{System.Net}        & Kết nối mạng từ bên trong .NET Runtime \\
+\hline
+\end{tabular}
+\end{table}
+
+27~tiến trình hệ thống thường trực sau đây bị lọc khỏi cây tiến
+trình (hằng \texttt{\_TREE\_NOISE}), chia theo bốn nhóm; tiến trình
+chỉ bị ẩn khi toàn bộ nhánh con cháu của nó cũng là nhiễu. Tên đã
+bỏ hậu tố \texttt{.exe}.
+\begin{table}[H]
+\centering
+\caption{27 tiến trình hệ thống bị lọc khỏi cây tiến trình
+  (hằng \texttt{\_TREE\_NOISE}).}
+\label{tab:tree-noise}
+\begin{tabular}{|l|>{\raggedright\arraybackslash}p{8.5cm}|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Nhóm}} & \multicolumn{1}{c|}{\textbf{Tiến trình}} \\
+\hline
+Lõi và phiên Windows &
+  \texttt{csrss}, \texttt{smss}, \texttt{wininit}, \texttt{winlogon},
+  \texttt{services}, \texttt{lsm}, \texttt{lsass}, \texttt{svchost},
+  \texttt{dllhost}, \texttt{conhost}, \texttt{taskhostw},
+  \texttt{runtimebroker}, \texttt{sihost}, \texttt{ctfmon},
+  \texttt{fontdrvhost}, \texttt{dwm} \\
+\hline
+Dịch vụ hệ thống và WMI &
+  \texttt{spoolsv}, \texttt{msdtc}, \texttt{audiodg},
+  \texttt{wmiprvse}, \texttt{wsmprovhost} \\
+\hline
+Tìm kiếm và bảo mật Windows &
+  \texttt{searchindexer}, \texttt{searchprotocolhost},
+  \texttt{securityhealthservice}, \texttt{securityhealthsystray} \\
+\hline
+Tiến trình VirtualBox &
+  \texttt{vboxservice}, \texttt{vboxtray} \\
+\hline
+\end{tabular}
+\end{table}
+
+\section*{B.5\quad Endpoint của Agent HTTP trong máy ảo}
+\addcontentsline{toc}{section}{B.5\quad Endpoint của Agent HTTP trong máy ảo}
+
+Bảng~\ref{tab:agent-endpoints} liệt kê toàn bộ 11~endpoint của
+Agent HTTP chạy trong máy ảo Windows.
+\begin{table}[H]
+\centering
+\caption{Toàn bộ endpoint của Agent HTTP trong máy ảo.}
+\label{tab:agent-endpoints}
+\begin{tabular}{|l|l|>{\raggedright\arraybackslash}p{6.5cm}|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Endpoint}} & \multicolumn{1}{c|}{\textbf{Phương thức}} & \multicolumn{1}{c|}{\textbf{Chức năng}} \\
+\hline
+\texttt{/health}                 & GET  & Kiểm tra Agent đã khởi động; trả về trạng thái và thời gian hoạt động \\
+\hline
+\texttt{/execute}                & POST & Khởi chạy tệp mẫu dưới dạng tiến trình mới; trả về PID \\
+\hline
+\texttt{/shell}                  & POST & Thực thi lệnh shell tùy ý, đồng bộ hoặc nền (\texttt{async=true}) \\
+\hline
+\texttt{/upload}                 & POST & Ghi nội dung văn bản vào đường dẫn tùy chỉnh trên guest \\
+\hline
+\texttt{/read}                   & GET  & Đọc nội dung tệp từ hệ thống tệp guest; Bridge dùng để poll log Sysmon \\
+\hline
+\texttt{/process\_tree/\{pid\}}  & GET  & Liệt kê toàn bộ PID con và cháu của tiến trình gốc \\
+\hline
+\texttt{/process/\{pid\}}        & GET  & Kiểm tra trạng thái và thời gian chạy của một PID cụ thể \\
+\hline
+\texttt{/status}                 & GET  & Trạng thái tổng thể tiến trình hiện tại; tự dừng nếu vượt timeout \\
+\hline
+\texttt{/stop}                   & POST & Dừng tiến trình đang chạy theo PID \\
+\hline
+\texttt{/logs}                   & GET  & Trả về nhật ký nội bộ của Agent (sự kiện execute, stop, \ldots) \\
+\hline
+\texttt{/screenshot}             & GET  & Chụp màn hình guest, trả về ảnh dạng Base64 PNG \\
+\hline
+\end{tabular}
+\end{table}
+\section*{B.6\quad Ánh xạ sự kiện chuẩn hóa vào nhóm hành vi}
+\addcontentsline{toc}{section}{B.6\quad Ánh xạ sự kiện chuẩn hóa vào nhóm hành vi}
+
+Bảng~\ref{tab:event-groups} liệt kê 11~nhóm hành vi và các loại
+sự kiện chuẩn hóa tương ứng dùng trong mô-đun xây dựng chuỗi hành vi.
+\begin{table}[H]
+\centering
+\caption{Ánh xạ 24~loại sự kiện chuẩn hóa vào 11~nhóm hành vi.}
+\label{tab:event-groups}
+\begin{tabular}{|l|>{\raggedright\arraybackslash}p{9cm}|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Nhóm hành vi}} & \multicolumn{1}{c|}{\textbf{Loại sự kiện}} \\
+\hline
+Tiến trình         & Tạo tiến trình, kết thúc tiến trình \\
+\hline
+Tiêm mã            & Truy cập tiến trình khác, tạo luồng từ xa, giả mạo tiến trình \\
+\hline
+Nạp thư viện động & Nạp DLL \\
+\hline
+Tệp               & Tạo tệp, xóa tệp, xóa tệp có ghi nhận, thay đổi thời gian tệp, tạo ADS \\
+\hline
+Registry           & Tạo khóa, ghi khóa, xóa khóa \\
+\hline
+Mạng               & Kết nối mạng \\
+\hline
+DNS                & Truy vấn DNS \\
+\hline
+Named pipe         & Tạo pipe, kết nối pipe \\
+\hline
+WMI                & Đăng ký WMI filter, consumer, binding \\
+\hline
+.NET Runtime       & Nạp assembly .NET \\
+\hline
+Khác               & Nạp driver, đọc đĩa thô \\
+\hline
+\end{tabular}
+\end{table}
+\section*{B.7\quad Cấu trúc báo cáo JSON đầu ra của pipeline}
+\addcontentsline{toc}{section}{B.7\quad Cấu trúc báo cáo JSON đầu ra của pipeline}
+
+Bảng~\ref{tab:report-impl} liệt kê tên trường thực tế của từng
+nhóm trong báo cáo JSON theo thiết kế tại Mục~\ref{section:3.5.2}.
+\begin{table}[H]
+\centering
+\caption{Cấu trúc báo cáo JSON đầu ra của pipeline.}
+\label{tab:report-impl}
+\begin{tabular}{|l|>{\raggedright\arraybackslash}p{9cm}|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Nhóm}} & \multicolumn{1}{c|}{\textbf{Trường JSON}} \\
+\hline
+Kết quả phân loại   &
+  \texttt{verdict}, \texttt{confidence},
+  \texttt{ml\_label}, \texttt{ml\_prob},
+  \texttt{static\_result} (xác suất ML thô và thông tin PE cơ bản) \\
+\hline
+Thông tin hành vi   &
+  \texttt{behavioral\_chain}, \texttt{process\_tree},
+  \texttt{narrative}, \texttt{mitre\_techniques},
+  \texttt{mitre\_details} (mỗi kỹ thuật kèm tên, nguồn và mức tin cậy) \\
+\hline
+Chỉ số xâm phạm    &
+  \texttt{ioc} (10 danh mục: ips, domains, urls,
+  files\_created, files\_deleted, registry\_keys,
+  commands, named\_pipes, injected\_pids, hashes) \\
+\hline
+Thông tin phiên     &
+  \texttt{metadata}: sha256, file\_size, started\_at,
+  ended\_at, duration\_s, stages, event\_count,
+  ttp\_count, analyzed\_at \\
+\hline
+Cảnh báo và lỗi    &
+  \texttt{warnings}, \texttt{errors} \\
+\hline
+\end{tabular}
+\end{table}
+\end{document}

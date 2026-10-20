@@ -1,0 +1,755 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{ye2017}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=602204a17fe33009eac55b67900e36b4}{%
+           family={Ye},
+           familyi={Y\bibinitperiod},
+           given={Yanfang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=38f3efe34cb29092007fe04331b383a3}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod}}}%
+        {{hash=217b1c6ffa0567578ed05a771f7877d8}{%
+           family={Adjeroh},
+           familyi={A\bibinitperiod},
+           given={Donald},
+           giveni={D\bibinitperiod}}}%
+        {{hash=42898635000428946613b194f18cdf8b}{%
+           family={Iyengar},
+           familyi={I\bibinitperiod},
+           given={S.\bibnamedelimi Sitharama},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{3d7d125ae03674c7119af7ffd0973384}
+      \strng{fullhash}{35894e8591914ae5c679a11fae4f5bf1}
+      \strng{fullhashraw}{35894e8591914ae5c679a11fae4f5bf1}
+      \strng{bibnamehash}{35894e8591914ae5c679a11fae4f5bf1}
+      \strng{authorbibnamehash}{35894e8591914ae5c679a11fae4f5bf1}
+      \strng{authornamehash}{3d7d125ae03674c7119af7ffd0973384}
+      \strng{authorfullhash}{35894e8591914ae5c679a11fae4f5bf1}
+      \strng{authorfullhashraw}{35894e8591914ae5c679a11fae4f5bf1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Computing Surveys}
+      \field{number}{3}
+      \field{title}{A Survey on Malware Detection Using Data Mining Techniques}
+      \field{volume}{51}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 40}
+      \range{pages}{40}
+    \endentry
+    \entry{gibert2020}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=80e669c16ab1eabce00024cc13db6e4e}{%
+           family={Gibert},
+           familyi={G\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b87bc0d15cf024154a412479053494ba}{%
+           family={Mateu},
+           familyi={M\bibinitperiod},
+           given={Carles},
+           giveni={C\bibinitperiod}}}%
+        {{hash=55cf1e125e431bc2debecf201a73918e}{%
+           family={Planes},
+           familyi={P\bibinitperiod},
+           given={Jordi},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{848a3097e30eb8c851eb53b8b8fd622b}
+      \strng{fullhash}{73e8362c55ba9b10f803e66003f7102f}
+      \strng{fullhashraw}{73e8362c55ba9b10f803e66003f7102f}
+      \strng{bibnamehash}{73e8362c55ba9b10f803e66003f7102f}
+      \strng{authorbibnamehash}{73e8362c55ba9b10f803e66003f7102f}
+      \strng{authornamehash}{848a3097e30eb8c851eb53b8b8fd622b}
+      \strng{authorfullhash}{73e8362c55ba9b10f803e66003f7102f}
+      \strng{authorfullhashraw}{73e8362c55ba9b10f803e66003f7102f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Network and Computer Applications}
+      \field{title}{The Rise of Machine Learning for Detection and Classification of Malware: Research Developments, Trends and Challenges}
+      \field{volume}{153}
+      \field{year}{2020}
+      \field{pages}{102526}
+      \range{pages}{1}
+    \endentry
+    \entry{DBLP:journals/corr/abs-2102-06249}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=b0f5f8e71b1c7d845e5d3932d33dbd70}{%
+           family={Oz},
+           familyi={O\bibinitperiod},
+           given={Harun},
+           giveni={H\bibinitperiod}}}%
+        {{hash=23a4ce03df4ac38c6a159235b9149911}{%
+           family={Aris},
+           familyi={A\bibinitperiod},
+           given={Ahmet},
+           giveni={A\bibinitperiod}}}%
+        {{hash=88a2f1720322782da474c273e360f422}{%
+           family={Levi},
+           familyi={L\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod}}}%
+        {{hash=df5c295afc4eeaee19d99884d7e2ba59}{%
+           family={Uluagac},
+           familyi={U\bibinitperiod},
+           given={A.\bibnamedelimi Selcuk},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{93c2e61b2ee903926dc5c58635b95310}
+      \strng{fullhash}{2f52bda6fe35ab367af934f7d05811c5}
+      \strng{fullhashraw}{2f52bda6fe35ab367af934f7d05811c5}
+      \strng{bibnamehash}{2f52bda6fe35ab367af934f7d05811c5}
+      \strng{authorbibnamehash}{2f52bda6fe35ab367af934f7d05811c5}
+      \strng{authornamehash}{93c2e61b2ee903926dc5c58635b95310}
+      \strng{authorfullhash}{2f52bda6fe35ab367af934f7d05811c5}
+      \strng{authorfullhashraw}{2f52bda6fe35ab367af934f7d05811c5}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{A Survey on Ransomware: Evolution, Taxonomy, and Defense Solutions}
+      \field{volume}{abs/2102.06249}
+      \field{year}{2021}
+      \verb{eprint}
+      \verb 2102.06249
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2102.06249
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2102.06249
+      \endverb
+    \endentry
+    \entry{7958609}{inproceedings}{}{}
+      \name{author}{8}{}{%
+        {{hash=2a1d376810feec89c390c028e89705fb}{%
+           family={Farinholt},
+           familyi={F\bibinitperiod},
+           given={Brown},
+           giveni={B\bibinitperiod}}}%
+        {{hash=fc9e7b7afcba2b7722ad616404051506}{%
+           family={Rezaeirad},
+           familyi={R\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fc5bffa39b840b74dcb62687590c5a8e}{%
+           family={Pearce},
+           familyi={P\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=277af029c494490a3ffd125be992ffdd}{%
+           family={Dharmdasani},
+           familyi={D\bibinitperiod},
+           given={Hitesh},
+           giveni={H\bibinitperiod}}}%
+        {{hash=bc9724376f67f2774b58d949cff31832}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Haikuo},
+           giveni={H\bibinitperiod}}}%
+        {{hash=9dbb28b37f4008ee2be16234b6902f98}{%
+           family={Le\bibnamedelima Blond},
+           familyi={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Stevens},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5aa95937949aa05ba5443b2869aa21e6}{%
+           family={McCoy},
+           familyi={M\bibinitperiod},
+           given={Damon},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e994af962190d488ae5fec4d6529da12}{%
+           family={Levchenko},
+           familyi={L\bibinitperiod},
+           given={Kirill},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{6399520ffd4c188476597c92f5a19b97}
+      \strng{fullhash}{258cc8a0fe63c0ed516f0da6ab009f6d}
+      \strng{fullhashraw}{258cc8a0fe63c0ed516f0da6ab009f6d}
+      \strng{bibnamehash}{6399520ffd4c188476597c92f5a19b97}
+      \strng{authorbibnamehash}{6399520ffd4c188476597c92f5a19b97}
+      \strng{authornamehash}{6399520ffd4c188476597c92f5a19b97}
+      \strng{authorfullhash}{258cc8a0fe63c0ed516f0da6ab009f6d}
+      \strng{authorfullhashraw}{258cc8a0fe63c0ed516f0da6ab009f6d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE Symposium on Security and Privacy (SP)}
+      \field{title}{To Catch a Ratter: Monitoring the Behavior of Amateur DarkComet RAT Operators in the Wild}
+      \field{year}{2017}
+      \field{pages}{770\bibrangedash 787}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1109/SP.2017.48
+      \endverb
+      \keyw{Rats;Monitoring;Trojan horses;Tools;Webcams;Electronic mail;darkcomet;RAT malware;remote access trojan;honeypot}
+    \endentry
+    \entry{rezaeirad2018}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{hash=fc9e7b7afcba2b7722ad616404051506}{%
+           family={Rezaeirad},
+           familyi={R\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2a1d376810feec89c390c028e89705fb}{%
+           family={Farinholt},
+           familyi={F\bibinitperiod},
+           given={Brown},
+           giveni={B\bibinitperiod}}}%
+        {{hash=277af029c494490a3ffd125be992ffdd}{%
+           family={Dharmdasani},
+           familyi={D\bibinitperiod},
+           given={Hitesh},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fc5bffa39b840b74dcb62687590c5a8e}{%
+           family={Pearce},
+           familyi={P\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e994af962190d488ae5fec4d6529da12}{%
+           family={Levchenko},
+           familyi={L\bibinitperiod},
+           given={Kirill},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5aa95937949aa05ba5443b2869aa21e6}{%
+           family={McCoy},
+           familyi={M\bibinitperiod},
+           given={Damon},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{e367e686e4513b9998d809add9772543}
+      \strng{fullhash}{04cfaa50108ea8b959ff1838adbfe6df}
+      \strng{fullhashraw}{04cfaa50108ea8b959ff1838adbfe6df}
+      \strng{bibnamehash}{04cfaa50108ea8b959ff1838adbfe6df}
+      \strng{authorbibnamehash}{04cfaa50108ea8b959ff1838adbfe6df}
+      \strng{authornamehash}{e367e686e4513b9998d809add9772543}
+      \strng{authorfullhash}{04cfaa50108ea8b959ff1838adbfe6df}
+      \strng{authorfullhashraw}{04cfaa50108ea8b959ff1838adbfe6df}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 27th USENIX Security Symposium}
+      \field{title}{Schrödinger's {RAT}: Profiling the Stakeholders in the Remote Access Trojan Ecosystem}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.usenix.org/conference/usenixsecurity18/presentation/rezaeirad
+      \endverb
+      \verb{url}
+      \verb https://www.usenix.org/conference/usenixsecurity18/presentation/rezaeirad
+      \endverb
+    \endentry
+    \entry{rashid2024}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=4ede0433c27b2d67c8a9cbffdf6fb678}{%
+           family={Rashid},
+           familyi={R\bibinitperiod},
+           given={Ali\bibnamedelima I.},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4e303ffa606c2d5d62cbaf3d96c1b3e}
+      \strng{fullhash}{f4e303ffa606c2d5d62cbaf3d96c1b3e}
+      \strng{fullhashraw}{f4e303ffa606c2d5d62cbaf3d96c1b3e}
+      \strng{bibnamehash}{f4e303ffa606c2d5d62cbaf3d96c1b3e}
+      \strng{authorbibnamehash}{f4e303ffa606c2d5d62cbaf3d96c1b3e}
+      \strng{authornamehash}{f4e303ffa606c2d5d62cbaf3d96c1b3e}
+      \strng{authorfullhash}{f4e303ffa606c2d5d62cbaf3d96c1b3e}
+      \strng{authorfullhashraw}{f4e303ffa606c2d5d62cbaf3d96c1b3e}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Engineering, Technology \& Applied Science Research}
+      \field{number}{5}
+      \field{title}{Detecting Remote Access Trojan ({RAT}) Attacks based on Different {LAN} Analysis Methods}
+      \field{volume}{14}
+      \field{year}{2024}
+      \field{pages}{17294\bibrangedash 17301}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.48084/etasr.8422
+      \endverb
+    \endentry
+    \entry{Zou2006}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=b77acdf6b74461ff6a92af7a7d440fa3}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Cliff\bibnamedelima C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=294e701b042477b3b60dee2c602a0be7}{%
+           family={Towsley},
+           familyi={T\bibinitperiod},
+           given={Don},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c28a32ddd91e073ba74172f331b14f62}{%
+           family={Gong},
+           familyi={G\bibinitperiod},
+           given={Weibo},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{a915a080a10644e661360a04d7440893}
+      \strng{fullhash}{3518ea0233715705563d3d999a9a3b50}
+      \strng{fullhashraw}{3518ea0233715705563d3d999a9a3b50}
+      \strng{bibnamehash}{3518ea0233715705563d3d999a9a3b50}
+      \strng{authorbibnamehash}{3518ea0233715705563d3d999a9a3b50}
+      \strng{authornamehash}{a915a080a10644e661360a04d7440893}
+      \strng{authorfullhash}{3518ea0233715705563d3d999a9a3b50}
+      \strng{authorfullhashraw}{3518ea0233715705563d3d999a9a3b50}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Performance Evaluation}
+      \field{number}{7}
+      \field{title}{On the Performance of Internet Worm Scanning Strategies}
+      \field{volume}{63}
+      \field{year}{2006}
+      \field{pages}{700\bibrangedash 723}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1016/j.peva.2005.07.032
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cs.ucf.edu/~czou/research/wormStrategy-elsevier.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.cs.ucf.edu/~czou/research/wormStrategy-elsevier.pdf
+      \endverb
+    \endentry
+    \entry{porras2009}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=0fb254d79c9097c76bc219471990200a}{%
+           family={Porras},
+           familyi={P\bibinitperiod},
+           given={Phillip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=25d26d88b7965e07fbd7f26d712761d5}{%
+           family={Saïdi},
+           familyi={S\bibinitperiod},
+           given={Hassen},
+           giveni={H\bibinitperiod}}}%
+        {{hash=25626c1314c0a09d8133158ca41b898e}{%
+           family={Yegneswaran},
+           familyi={Y\bibinitperiod},
+           given={Vinod},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston, MA}%
+      }
+      \list{publisher}{1}{%
+        {USENIX Association}%
+      }
+      \strng{namehash}{1d03b95f8024291964efc96c80d2c7b0}
+      \strng{fullhash}{a49a0ed6c9a6a5358e41eab5319a9e38}
+      \strng{fullhashraw}{a49a0ed6c9a6a5358e41eab5319a9e38}
+      \strng{bibnamehash}{a49a0ed6c9a6a5358e41eab5319a9e38}
+      \strng{authorbibnamehash}{a49a0ed6c9a6a5358e41eab5319a9e38}
+      \strng{authornamehash}{1d03b95f8024291964efc96c80d2c7b0}
+      \strng{authorfullhash}{a49a0ed6c9a6a5358e41eab5319a9e38}
+      \strng{authorfullhashraw}{a49a0ed6c9a6a5358e41eab5319a9e38}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2nd USENIX Workshop on Large-Scale Exploits and Emergent Threats (LEET '09)}
+      \field{title}{A Foray into {Conficker}'s Logic and Rendezvous Points}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb https://www.usenix.org/conference/leet-09/foray-confickers-logic-and-rendezvous-points
+      \endverb
+      \verb{url}
+      \verb https://www.usenix.org/conference/leet-09/foray-confickers-logic-and-rendezvous-points
+      \endverb
+    \endentry
+    \entry{ember2018}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=b7ce5783d4e4b5b33d7541a3245e3b11}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Hyrum\bibnamedelima S.},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=19ff65b8ed8ab95652a6588a676032ab}{%
+           family={Roth},
+           familyi={R\bibinitperiod},
+           given={Phil},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{f3ee9f3f0fa92877bc26de51526cd5e3}
+      \strng{fullhash}{f3ee9f3f0fa92877bc26de51526cd5e3}
+      \strng{fullhashraw}{f3ee9f3f0fa92877bc26de51526cd5e3}
+      \strng{bibnamehash}{f3ee9f3f0fa92877bc26de51526cd5e3}
+      \strng{authorbibnamehash}{f3ee9f3f0fa92877bc26de51526cd5e3}
+      \strng{authornamehash}{f3ee9f3f0fa92877bc26de51526cd5e3}
+      \strng{authorfullhash}{f3ee9f3f0fa92877bc26de51526cd5e3}
+      \strng{authorfullhashraw}{f3ee9f3f0fa92877bc26de51526cd5e3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1804.04637}
+      \field{title}{{EMBER}: An Open Dataset for Training Static {PE} Malware Machine Learning Models}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1804.04637
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1804.04637
+      \endverb
+    \endentry
+    \entry{choudhary2025}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=5d67ef501b4b140cfd8a763771f7294d}{%
+           family={Choudhary},
+           familyi={C\bibinitperiod},
+           given={Aditya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c7f1186181ed44200fdd0c7dcf54d2db}{%
+           family={Pawar},
+           familyi={P\bibinitperiod},
+           given={Sarthak},
+           giveni={S\bibinitperiod}}}%
+        {{hash=918d47056c09d4dadec5a7cfa4b9e56b}{%
+           family={Haribhakta},
+           familyi={H\bibinitperiod},
+           given={Yashodhara},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{2c5ef5e1e153311fb4c6c3edccd4001d}
+      \strng{fullhash}{f69941149ca886aa516beba4c8a47056}
+      \strng{fullhashraw}{f69941149ca886aa516beba4c8a47056}
+      \strng{bibnamehash}{f69941149ca886aa516beba4c8a47056}
+      \strng{authorbibnamehash}{f69941149ca886aa516beba4c8a47056}
+      \strng{authornamehash}{2c5ef5e1e153311fb4c6c3edccd4001d}
+      \strng{authorfullhash}{f69941149ca886aa516beba4c8a47056}
+      \strng{authorfullhashraw}{f69941149ca886aa516beba4c8a47056}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CR}
+      \field{eprinttype}{arXiv}
+      \field{note}{Accepted at ISAC3 2025}
+      \field{title}{Efficient Malware Detection with Optimized Learning on High-Dimensional Features}
+      \field{year}{2025}
+      \verb{eprint}
+      \verb 2506.17309
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2506.17309
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2506.17309
+      \endverb
+    \endentry
+    \entry{breiman2001}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=132b7100417675d55d5d4d8b244f7a34}{%
+           family={Breiman},
+           familyi={B\bibinitperiod},
+           given={Leo},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Kluwer Academic Publishers}%
+      }
+      \strng{namehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{fullhash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{fullhashraw}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{bibnamehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{authorbibnamehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{authornamehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{authorfullhash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{authorfullhashraw}{132b7100417675d55d5d4d8b244f7a34}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Machine Learning}
+      \field{number}{1}
+      \field{title}{Random Forests}
+      \field{volume}{45}
+      \field{year}{2001}
+      \field{pages}{5\bibrangedash 32}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1023/A:1010933404324
+      \endverb
+    \endentry
+    \entry{chen2016xgboost}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=48461ccdf50ba5a54e29a354aa734c0b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Tianqi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c9ab8ac486d7f85ac914b1a8e51e512b}{%
+           family={Guestrin},
+           familyi={G\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{fullhash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{fullhashraw}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{bibnamehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authorbibnamehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authornamehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authorfullhash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authorfullhashraw}{f79ceb030bcf791e5521f87ac6ada03b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining}
+      \field{title}{{XGBoost}: A Scalable Tree Boosting System}
+      \field{year}{2016}
+      \field{pages}{785\bibrangedash 794}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/2939672.2939785
+      \endverb
+    \endentry
+    \entry{lightgbm2017}{inproceedings}{}{}
+      \name{author}{8}{}{%
+        {{hash=dadd87e1dad07728ce408894042b277e}{%
+           family={Ke},
+           familyi={K\bibinitperiod},
+           given={Guolin},
+           giveni={G\bibinitperiod}}}%
+        {{hash=359e0be87f96079a68d0ebf5355da232}{%
+           family={Meng},
+           familyi={M\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=d1cb1c25fa372c0b0885de8a27dc0222}{%
+           family={Finley},
+           familyi={F\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b5857cb363d37a3b1ff2c28da6586fc9}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Taifeng},
+           giveni={T\bibinitperiod}}}%
+        {{hash=06debc36f6b61a405e8f0da1c7ccd6ca}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=a70fde7196864f8be0248eba2f7f29c8}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Weidong},
+           giveni={W\bibinitperiod}}}%
+        {{hash=162ccfc475d9d2bc1177357e4913f290}{%
+           family={Ye},
+           familyi={Y\bibinitperiod},
+           given={Qiwei},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=716b89cbb7332599ebb33cc58a52f648}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Tie-Yan},
+           giveni={T\bibinithyphendelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{cec83448a93ad6a5cdc6f494a8f2dbcb}
+      \strng{fullhash}{138b620984178bfaf960c59da39eb14f}
+      \strng{fullhashraw}{138b620984178bfaf960c59da39eb14f}
+      \strng{bibnamehash}{cec83448a93ad6a5cdc6f494a8f2dbcb}
+      \strng{authorbibnamehash}{cec83448a93ad6a5cdc6f494a8f2dbcb}
+      \strng{authornamehash}{cec83448a93ad6a5cdc6f494a8f2dbcb}
+      \strng{authorfullhash}{138b620984178bfaf960c59da39eb14f}
+      \strng{authorfullhashraw}{138b620984178bfaf960c59da39eb14f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems (NeurIPS)}
+      \field{title}{{LightGBM}: A Highly Efficient Gradient Boosting Decision Tree}
+      \field{volume}{30}
+      \field{year}{2017}
+    \endentry
+    \entry{sysmon}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=a36c3d16db2c894b75670df0ac1567d9}{%
+           family={{Microsoft Sysinternals}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a36c3d16db2c894b75670df0ac1567d9}
+      \strng{fullhash}{a36c3d16db2c894b75670df0ac1567d9}
+      \strng{fullhashraw}{a36c3d16db2c894b75670df0ac1567d9}
+      \strng{bibnamehash}{a36c3d16db2c894b75670df0ac1567d9}
+      \strng{authorbibnamehash}{a36c3d16db2c894b75670df0ac1567d9}
+      \strng{authornamehash}{a36c3d16db2c894b75670df0ac1567d9}
+      \strng{authorfullhash}{a36c3d16db2c894b75670df0ac1567d9}
+      \strng{authorfullhashraw}{a36c3d16db2c894b75670df0ac1567d9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Truy cập tháng 5 năm 2026}
+      \field{title}{Sysmon -- System Monitor}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon
+      \endverb
+    \endentry
+    \entry{elastic_dotnet}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=93ae48bc86074620795a9e2092352bdf}{%
+           family={Desimone},
+           familyi={D\bibinitperiod},
+           given={Joe},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{93ae48bc86074620795a9e2092352bdf}
+      \strng{fullhash}{93ae48bc86074620795a9e2092352bdf}
+      \strng{fullhashraw}{93ae48bc86074620795a9e2092352bdf}
+      \strng{bibnamehash}{93ae48bc86074620795a9e2092352bdf}
+      \strng{authorbibnamehash}{93ae48bc86074620795a9e2092352bdf}
+      \strng{authornamehash}{93ae48bc86074620795a9e2092352bdf}
+      \strng{authorfullhash}{93ae48bc86074620795a9e2092352bdf}
+      \strng{authorfullhashraw}{93ae48bc86074620795a9e2092352bdf}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Elastic Security Labs}
+      \field{note}{Truy cập tháng 6 năm 2026}
+      \field{title}{Hunting for In-Memory .NET Attacks}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.elastic.co/security-labs/hunting-memory-net-attacks
+      \endverb
+      \verb{url}
+      \verb https://www.elastic.co/security-labs/hunting-memory-net-attacks
+      \endverb
+    \endentry
+    \entry{microsoft_etw}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://learn.microsoft.com/en-us/windows/win32/etw/about-event-tracing}}
+      \field{note}{Truy cập: 2026-05-25}
+      \field{title}{About Event Tracing}
+      \field{year}{2024}
+    \endentry
+    \entry{silketw}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e059fcb35d05f3bd3c299b578fe3aec4}{%
+           family={Mathieu},
+           familyi={M\bibinitperiod},
+           given={Ruben},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{e059fcb35d05f3bd3c299b578fe3aec4}
+      \strng{fullhash}{e059fcb35d05f3bd3c299b578fe3aec4}
+      \strng{fullhashraw}{e059fcb35d05f3bd3c299b578fe3aec4}
+      \strng{bibnamehash}{e059fcb35d05f3bd3c299b578fe3aec4}
+      \strng{authorbibnamehash}{e059fcb35d05f3bd3c299b578fe3aec4}
+      \strng{authornamehash}{e059fcb35d05f3bd3c299b578fe3aec4}
+      \strng{authorfullhash}{e059fcb35d05f3bd3c299b578fe3aec4}
+      \strng{authorfullhashraw}{e059fcb35d05f3bd3c299b578fe3aec4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Truy cập tháng 5 năm 2026}
+      \field{title}{{SilkETW} \& {SilkService}: Flexible {C\#} Wrappers for {ETW}}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://github.com/mandiant/SilkETW
+      \endverb
+      \verb{url}
+      \verb https://github.com/mandiant/SilkETW
+      \endverb
+    \endentry
+    \entry{mitre_attack}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=74ba159b7a793d67eb4e566a38793238}{%
+           family={{MITRE Corporation}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{fullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \strng{bibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorbibnamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authornamehash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhash}{74ba159b7a793d67eb4e566a38793238}
+      \strng{authorfullhashraw}{74ba159b7a793d67eb4e566a38793238}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Truy cập tháng 5 năm 2026}
+      \field{title}{{ATT\&CK}: Adversarial Tactics, Techniques, and Common Knowledge}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://attack.mitre.org/
+      \endverb
+      \verb{url}
+      \verb https://attack.mitre.org/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,77 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{weinberger2009}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=77f85a4967d0bcc0fb37b39729520fd6}{%
+           family={Weinberger},
+           familyi={W\bibinitperiod},
+           given={Kilian},
+           giveni={K\bibinitperiod}}}%
+        {{hash=7f3928814d6b1a0576f0511aee7e4023}{%
+           family={Dasgupta},
+           familyi={D\bibinitperiod},
+           given={Anirban},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3b32f20ce03981cb315259a6fd0a3068}{%
+           family={Langford},
+           familyi={L\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a4d2eb3aadfce48c1b00303f0988e905}{%
+           family={Smola},
+           familyi={S\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=828d5213974b199cf3678b896ba1f9df}{%
+           family={Attenberg},
+           familyi={A\bibinitperiod},
+           given={Josh},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{78353b668d8683bfd7672c9a5d5b8a62}
+      \strng{fullhash}{b1aa53199305d3a506cd7133cfc1b30f}
+      \strng{fullhashraw}{b1aa53199305d3a506cd7133cfc1b30f}
+      \strng{bibnamehash}{b1aa53199305d3a506cd7133cfc1b30f}
+      \strng{authorbibnamehash}{b1aa53199305d3a506cd7133cfc1b30f}
+      \strng{authornamehash}{78353b668d8683bfd7672c9a5d5b8a62}
+      \strng{authorfullhash}{b1aa53199305d3a506cd7133cfc1b30f}
+      \strng{authorfullhashraw}{b1aa53199305d3a506cd7133cfc1b30f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 26th Annual International Conference on Machine Learning}
+      \field{title}{Feature Hashing for Large Scale Multitask Learning}
+      \field{year}{2009}
+      \field{pages}{1113\bibrangedash 1120}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1145/1553374.1553516
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

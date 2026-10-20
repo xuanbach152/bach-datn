@@ -1,0 +1,15 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'CHUONG/3_Thiet_ke.blg'
+[38] biber:342> INFO - === Fri Jun 26, 2026, 05:57:53
+[47] Biber.pm:421> INFO - Reading 'CHUONG/3_Thiet_ke.bcf'
+[80] Biber.pm:1002> INFO - Found 1 citekeys in bib section 0
+[89] Biber.pm:4487> INFO - Processing section 0
+[95] Biber.pm:4678> INFO - Looking for bibtex file 'Danh_sach_tai_lieu_tham_khao.bib' for section 0
+[95] bibtex.pm:1713> INFO - LaTeX decoding ...
+[107] bibtex.pm:1519> INFO - Found BibTeX data source 'Danh_sach_tai_lieu_tham_khao.bib'
+[127] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[127] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[128] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[128] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[128] bbl.pm:676> INFO - Writing 'CHUONG/3_Thiet_ke.bbl' with encoding 'UTF-8'
+[129] bbl.pm:779> INFO - Output to CHUONG/3_Thiet_ke.bbl
